@@ -1,0 +1,133 @@
+
+
+*{
+
+	box-sizing: border-box;
+
+}
+
+
+h1{
+
+	text-align: center;
+}
+
+section{
+
+	margin-bottom: 15px; ; 
+
+}
+
+article{
+	position: relative;
+	padding: 10%;
+}
+
+article > div{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-align: center;
+	width: 25%;
+	padding: 0.5%;
+	color: white;
+
+}
+
+#title1{
+	background-color: #760F2E;
+
+}
+
+#title2{
+	background-color: #38843E;
+
+}
+
+#title3{
+	background-color: #0964E8;
+
+}
+article,div{
+
+	border: 1px solid black;
+
+}
+
+#article1{
+
+	background-color: #33FFEC;	
+
+}
+
+#article2{
+
+	background-color: #FF6833;
+}
+
+#article3{
+
+	background-color: #7B7C5B;
+}
+
+article{
+
+	width: 90%;
+	margin : auto;
+
+}
+
+
+/************* TABLET *******/
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	section{
+		float: left;
+	}
+
+	.col-sm-6{
+		width: 50%;
+	}
+
+	
+	h1{
+		margin-bottom: 100px;
+	}	
+
+	#article3{
+		width: 95%;
+		padding: 5%;
+	}
+
+}
+
+
+
+
+/********  DESKTOP *******/
+
+
+@media(min-width: 992px){
+
+	h1{
+		margin-bottom: 100px;
+	}
+
+	section{
+		float: left;
+	}
+
+
+
+	.col-md-4{
+
+		width: 33.33%; 
+
+	}
+
+
+
+
+
+}
